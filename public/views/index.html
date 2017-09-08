@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <base href="/">
+
+  <!-- VENDORS -->
+  <script src="vendors/angular.min.js" charset="utf-8"></script>
+  <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+  <script src="vendors/jquery.min.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="vendors/bootstrap.scss">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+
+
+  <!-- FONTAWESOME -->
+  <script src="https://use.fontawesome.com/395b82c0b4.js"></script>
+
+
+  <!--VEX ALERTS  -->
+  <script src="vendors/vex.min.js" charset="utf-8"></script>
+  <script src="vendors/vex.dialog.min.js" charset="utf-8"></script>
+  <script src="vendors/vex.combined.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="vendors/vex.css">
+  <link rel="stylesheet" href="vendors/vex-theme-flat-attack.css">
+
+  <!-- CONTROLLER -->
+  <script src="scripts/controller/profileController.js" charset="utf-8"></script>
+  <script src="scripts/controller/menuController.js" charset="utf-8"></script>
+
+  <!-- SCRIPTS -->
+  <!-- <script src="scripts/main.js" charset="utf-8"></script> -->
+
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/nav.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/work.css">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/resume.css">
+
+  <title>Brett Miller Web Dev</title>
+</head>
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="">BRETT MILLER</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link active" href="">ABOUT<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="">WORK</a>
+      <a class="nav-item nav-link" href="">RÉSUMÉ</a>
+      <a class="nav-item nav-link" href="">CONTACT</a>
+    </div>
+  </div>
+</nav> -->
+<h1 class='text-center'>BRETT MILLER</h1>
+<nav class="navbar">
+  <!-- <a class="navbar-brand" href="">BRETT MILLER</a> -->
+
+
+
+  <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+
+
+  <span class='menu'>MENU</span>
+
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <div class="menuItem text-center">
+
+          <a class="nav-link" href="/about" data-toggle="collapse" data-target=".navbar-collapse.show">ABOUT</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="menuItem text-center">
+          <a class="nav-link" href="/work" data-toggle="collapse" data-target=".navbar-collapse.show">WORK</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="menuItem text-center">
+          <a class="nav-link" href="/resume" data-toggle="collapse" data-target=".navbar-collapse.show">RÉSUMÉ</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="menuItem text-center">
+          <a class="nav-link" href="/contact" data-toggle="collapse" data-target=".navbar-collapse.show">CONTACT</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+<body ng-app='myApp' ng-controller='profileController as pc'>
+
+
+  <ng-view autoscroll="true"></ng-view>
+</body>
+
+</html>
