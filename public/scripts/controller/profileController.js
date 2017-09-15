@@ -11,11 +11,8 @@ myApp.config(function($routeProvider, $locationProvider) {
     templateUrl: 'views/partials/contact.html',
   }).when('/resume', {
     templateUrl: 'views/partials/resume.html'
-  }).when('/portfolio', {
-    templateUrl: 'views/partials/portfolio.html'
-  }).when('/menu', {
-    templateUrl: 'views/partials/menu.html',
-    controller: 'menuController as mc'
+  }).when('/work', {
+    templateUrl: 'views/partials/work.html'
   });
   $locationProvider.html5Mode({
     enabled: true,
