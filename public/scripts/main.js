@@ -3,12 +3,16 @@ $(document).ready(function() {
   AOS.init({
     // startEvent: 'scroll',
     // duration: 1300,
+
+
   });
-});
+}); //end on ready
 
 
 console.log('JS');
 
+
+// Nav Function
 
 function openNav() {
   document.getElementById("myNav").style.height = "100%";
@@ -17,3 +21,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
+//end nav
+
+
+// my map
