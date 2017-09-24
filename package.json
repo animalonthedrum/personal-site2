@@ -20,6 +20,7 @@
     "express": "^4.15.4",
     "gulp": "^3.9.1",
     "nodemailer": "^4.1.0",
+    "three": "^0.87.1",
     "vex-dialog": "^1.0.7"
   }
 }

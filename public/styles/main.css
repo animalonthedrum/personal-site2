@@ -1,7 +1,14 @@
+html {
+  background: #B6AEB0!important;
+  background-color: #b6aeb0;
+}
+
 body {
   font-family: 'proxima nova', sans-serif;
   font-style: normal;
   font-weight: 500;
+  margin: 0;
+  background-color: #b6aeb0;
 }
 
 
