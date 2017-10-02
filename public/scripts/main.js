@@ -45,9 +45,8 @@ $(document).ready(function() {
   // }
 
 
+
 }); //end on ready
-
-
 console.log('JS');
 
 
