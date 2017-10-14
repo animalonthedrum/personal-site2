@@ -27,20 +27,9 @@ myApp.controller('profileController', ['MailService', function(MailService) {
 
   var vm = this;
   vm.mailObject = {};
-  //
-  // var mailObject = {
-  //   name: vm.name,
-  //   email: vm.email,
-  //   subject: vm.subject,
-  //   message: vm.message
-  //
-  // };
 
 
-
-
-
-  vm.submitForm = function(mailObject) {
+vm.submitForm = function(mailObject) {
     console.log(mailObject);
     if (mailObject.name !== undefined && mailObject.email !== undefined && mailObject.subject !== undefined && mailObject.message !== undefined) {
       MailService.sendEmail(mailObject).then(function() {
