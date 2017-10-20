@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 
   $('.carousel').carousel();
-  
+  // $('.carousel2').carousel();
 }); //end on ready
 console.log('JS');
 

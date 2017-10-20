@@ -52,6 +52,16 @@
   text-align: center;
 }
 
+.desktop{
+  width: 355px;
+  height: 294.1px;
+}
+
+.mobile{
+  width:400px;
+  height:400px;
+}
+
 
 /*.carousel-control-prev{
   color: black!important;
